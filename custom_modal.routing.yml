@@ -5,3 +5,4 @@ custom_modal.modal:
     _controller: '\Drupal\custom_modal\Controller\CustomModalController::modal'
   requirements:
     _permission: 'access content'
+    js: 'nojs|ajax'
