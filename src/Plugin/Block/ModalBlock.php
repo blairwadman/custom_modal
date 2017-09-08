@@ -23,7 +23,7 @@ class ModalBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {
-    $link_url = Url::fromRoute('custom_modal.modal');
+    $link_url = Url::fromRoute('custom_modal.modal', ['js' => 'nojs']);
     $link_url->setOptions([
       'attributes' => [
         'class' => ['use-ajax', 'button', 'button--small'],
