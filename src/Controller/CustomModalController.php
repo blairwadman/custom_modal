@@ -25,7 +25,7 @@ class CustomModalController extends ControllerBase {
     }
     else {
       $response = new Response();
-      $response->setContent('This is an example of a fallback for a modal without Javascript.');
+      $response->setContent('The modal text (Javascript is not enabled)');
     }
 
     return $response;
